@@ -6,9 +6,9 @@ This is a web-based to-do list application developed for the "System Analysis an
 The To-Do List Web Application allows users to create, manage, and organize their tasks in a convenient and user-friendly manner. It was developed as part of a workshop that focused on system analysis and design concepts. The workshop covered introductory Python programming, and the application was developed using basic Python skills.
 
 ## Project Contributors
-System Analysis: @hivaabolhadizade
-UI/UX Design and Frontend Development: @kimchim00
-Backend Development with Django: @makhgarr and @AmirShamsi02
+System Analysis: [Me](https://github.com/hivaabolhadizade)
+UI/UX Design and Frontend Development: [Kimia](https://github.com/kimchim00)
+Backend Development with Django: [Mahta](https://github.com/makhgarr) and [Amir](https://github.com/AmirShamsi02)
 
 ## Features
 - Add tasks: Easily add new tasks to the to-do list.
