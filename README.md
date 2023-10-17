@@ -7,7 +7,9 @@ The To-Do List Web Application allows users to create, manage, and organize thei
 
 ## Project Contributors
 System Analysis: [Me](https://github.com/hivaabolhadizade)
+
 UI/UX Design and Frontend Development: [Kimia](https://github.com/kimchim00)
+
 Backend Development with Django: [Mahta](https://github.com/makhgarr) and [Amir](https://github.com/AmirShamsi02)
 
 ## Features
