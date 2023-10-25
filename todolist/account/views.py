@@ -15,14 +15,13 @@ def sign_up(request):
                 return redirect('account:signup')
             new_user = User(email=email, password=password)
             new_user.save()
-            return redirect ('todolist:main_page')
+            return redirect ('todolist:home_page')
         elif 'login' in request.POST:
             email = request.POST.get('email')
             password = request.POST.get('pswd')
             if not User.objects.filter(email=email, password=password).exists():
                 return Http404
-            return redirect ('todolist:main_page')
-        print('im dead')
+            return redirect ('todolist:home_page')
     return render(request, 'account/SIgnUPIn.html')
 
 

@@ -1,0 +1,164 @@
+@font-face {
+    font-family: topics;
+    src: url(../MEow-do/fonts/Kavoon-Regular.ttf);
+  }
+  @font-face {
+    font-family: Title;
+    src: url(../MEow-do/fonts/JosefinSans-Regular.ttf);
+  }
+  @font-face {
+    font-family: btn;
+    src: url(../MEow-do/fonts/IrishGrover-Regular.ttf);
+  }
+body{
+	margin: 0;
+	padding: 0;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	font-family: 'Jost', sans-serif;
+	background-image: url(../MEow-do/img/MainPage/Background.svg);
+	background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #866060;
+}
+.WriteItem{
+    margin: 0;
+    padding: 0;
+    height: 100px;
+    width: 100%;
+    background: rgba(205, 127, 46, 0.80);
+    display: flex;
+    overflow: hidden;
+    position: fixed;
+}
+.AddItem{
+    width: 1231px;
+    min-height: 34px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: rgba(247, 227, 211, 0.60);
+    display: flex;
+position: fixed;
+
+
+    
+
+top: 140px;
+left: 124px;
+border-radius: 30px;
+
+}
+.list-group li{
+    width: 1149px;
+min-height: 10px;
+flex-shrink: 0;
+display: flex;
+	margin: 20px auto;
+	padding: 10px;
+	
+border-radius: 20px;
+background: rgba(222, 189, 179, 0.80);
+
+
+}
+.list-group label{
+    color: #000;
+
+font-family: Title;
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+
+}
+
+.imgmul{
+    width: 28px;
+    height: 28px;
+    flex-shrink: 0;
+    margin-left: 10px;
+    position: inherit;
+   
+    
+    
+}
+.imgEdite{
+    width: 28px;
+    height: 28px;
+    flex-shrink: 0;
+    margin-left: 10px;
+    position: inherit;
+}
+#TextBox{
+    display: flex;
+    width: 899px;
+    padding: 20px 40px;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.80);
+    border: none;
+    color: #000;
+font-family: topics;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+position: fixed;
+}
+#Datebox{
+    display: flex;
+    width: 99px;
+    padding: 20px 40px;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    margin-left: 1020px;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.80);
+    border: none;
+    color: #000;
+font-family: topics;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+position: fixed;
+}
+.btnAdd{
+    display: inline-flex;
+padding: 10px 25px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 40px;
+background: #D44317;
+color: #FFF;
+
+font-family: btn;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 20px;
+margin-left: 1240px;
+border: none;
+position: fixed;
+}
+.btnAdd:hover{
+    color: #D44317;
+    background-color: black;
+}
+.btnAdd:active{
+    color: #d3f31f;
+    background-color: black;
+}
+
+  
+  

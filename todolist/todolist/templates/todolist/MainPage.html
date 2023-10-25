@@ -1,0 +1,38 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="MainStyle.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="WriteItem">
+        <form action="" method="POST">
+          {% csrf_token %}
+            <input type="text" name="lobjecttext" id="TextBox">
+            <input type="date" name="" id="Datebox">
+            <button class="btnAdd" type="submit">Add</button>
+        </form>
+    </div>
+    <div class="AddItem" >
+    <ul class="list-group">
+      {% for lobject in lobjects %}
+         <li class="list-group-item">
+   
+    <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox"></br>
+    <label for="firstCheckbox" class="container">{{ lobject.text }}</label>
+  <div>
+    <a href="#"><img src="../MEow-do/img/MainPage/edit.png"  class="imgEdite" ></a>
+  <a href="#"><img src="../MEow-do/img/MainPage/multiply.png"  class="imgmul" ></a>
+</div>
+
+</li>
+{% endfor %}
+
+      </ul>
+    </div>
+</body>
+</html>
