@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../MEow-do/img/HomePage/Background.jpg");
+ /*عکس هم در حالت افقی و هم در حالت عمودی در مرکز قرار بگیرد*/
+    background-position: center center;
+
+/* اگز اندازه عکس از صفحه ک.چکتر بود عکس تکرار نشود */
+    background-repeat: no-repeat;
+
+/* اگر محتوای صفحه بیشتر از سایز عکس شد شکل عکس تغییر نکند */
+    background-attachment: fixed;
+
+/* باعث ریسپانسیو شدن عکس در هر مرورگر می شود */
+    background-size: cover;
+
+/* تا عکس پس زمینه لود می شود این رنگ را نمایش دهد*/
+    background-color: #464646;
+}
+
+@font-face {
+    font-family: Title;
+    src: url(../MEow-do/fonts/Kavoon-Regular.ttf);
+}
+
+@font-face {
+    font-family: regularwriting;
+    src: url(../MEow-do/fonts/JosefinSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: btns;
+    src: url(../MEow-do/fonts/IrishGrover-Regular.ttf);
+}
+
+@media screen {
+    
+}
+.logoName {
+    color: black;
+    font-family: Title;
+    font-size: 48px;
+    font-style: normal;
+    line-height: normal;
+    position: absolute;  
+    top: 60px;
+    left: 159px;
+    display: fixed;
+   
+}
+
+.nav_rightside a{
+    color: black;
+    font-family: regularwriting;
+    font-size: 38px;
+    font-style: normal;
+    line-height: normal;
+    position: relative;
+    top: 30px;
+    left: 890px;
+    padding-left: 50px;
+   text-decoration: none;
+    display: fixed;
+}
+
+.HA:hover {
+    color: #DDA282;
+    font-size: 48px;
+    
+}
+
+.nav_rightside a:active {
+    color: #D44317
+}
+
+.Home_btn  a{
+    display: inline-flex;
+    padding: 32px 16px;
+    background-color: #DDA282;;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    border-radius: 30px;
+    color: #000;
+    font-family: btns;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    position: absolute;
+    top: 350px;
+    left: 570px;
+}
+.Home_btn a:hover{
+    background: #DDA29C;
+    color: #FFF;
+    padding: 32px 34px ;
+}
+.Home_btn a:active{
+    background: black;
+    color:  #DDA282;
+    padding: 32px 34px ;
+}
